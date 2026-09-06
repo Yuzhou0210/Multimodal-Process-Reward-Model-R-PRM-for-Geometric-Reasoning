@@ -11,7 +11,7 @@ from qwen_vl_utils import process_vision_info
 POOL_FILE = "./multimodal_data/unlabeled_candidate_pool_50k.jsonl"
 OUTPUT_FILE = "./multimodal_data/sft_distilled_train.jsonl"
 PROGRESS_FILE = "./multimodal_data/distilled_done.ids"
-BATCH_SIZE = 32  # A800 80GB 吞吐最佳 Batch
+BATCH_SIZE = 32  
 
 SYSTEM_PROMPT = "You are an expert multimodal mathematics teacher. Your task is to evaluate the correctness of the 'Now Step' with a step-by-step reasoning chain."
 
