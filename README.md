@@ -136,15 +136,21 @@ Evaluation on a 30-example MathVista geometry subset:
 ## Repository Structure
 
 ```text
-.
-├── data/
+multimodal-rprm/
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+├── scripts/
+│   └── data/
 ├── distill/
 ├── training/
 ├── inference/
 ├── evaluation/
 ├── demo/
 ├── scripts/
-└── README.md
+├── configs/
+└── assets/
 ```
 
 ## Installation
