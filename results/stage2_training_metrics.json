@@ -1,0 +1,13 @@
+{
+  "experiment": "Final R-PRM Stage-2 SFT",
+  "model": "Qwen3-VL-8B-Instruct",
+  "checkpoint": "checkpoint-1656",
+  "metrics": {
+    "final_eval_token_acc": 0.965761793725626,
+    "final_eval_token_acc_percent": 96.58
+  },
+  "notes": {
+    "metric_type": "token-level SFT accuracy",
+    "warning": "eval_token_acc is not step-level verification accuracy or ROC-AUC."
+  }
+}

@@ -1,0 +1,10 @@
+method,deployment,search_or_verification,correct,total,accuracy
+Policy Baseline (Greedy),8B local,T=0,15,30,50.00
+Random Pick @ N=4,8B local,T=0.7 sampling,14.25,30,47.50
+Random Pick @ N=8,8B local,T=0.7 sampling,18,30,60.00
+PRM Best-of-4 (Pure),8B local,4 candidates + PRM,15,30,50.00
+PRM Best-of-8 (Pure),8B local,8 candidates + PRM,19,30,63.33
+PRM Best-of-(8+1) + Guard,8B local,8 sampled + greedy guard,20,30,66.67
+Oracle Upper Bound (N=4),8B local,oracle selection,18,30,60.00
+Oracle Upper Bound (N=8),8B local,oracle selection,28,30,93.33
+Qwen3.8-Flash (reported),cloud API,deep-thinking mode,27,30,90.00
