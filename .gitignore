@@ -1,0 +1,105 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.venv/
+env/
+conda-env/
+
+# =========================
+# Model checkpoints / weights
+# =========================
+output/
+output_rprm_sft/
+checkpoints/
+checkpoint-*/
+
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Large datasets
+# =========================
+multimodal_data/
+data/raw/
+data/processed/
+
+# =========================
+# Training / evaluation logs
+# =========================
+logs/
+*.log
+wandb/
+runs/
+tensorboard/
+
+# =========================
+# Hugging Face / model cache
+# =========================
+.cache/
+huggingface/
+hf_cache/
+
+# =========================
+# API keys / secrets
+# IMPORTANT: never commit these
+# =========================
+.env
+.env.*
+*.key
+secrets.json
+credentials.json
+
+# =========================
+# Temporary experiment files
+# =========================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Linux
+# =========================
+*~
+
+# =========================
+# LaTeX temporary files
+# =========================
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
