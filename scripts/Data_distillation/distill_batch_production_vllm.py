@@ -11,7 +11,7 @@ POOL_FILE = "./multimodal_data/unlabeled_candidate_pool_50k.jsonl"
 OUTPUT_FILE = "./multimodal_data/sft_distilled_train.jsonl"
 PROGRESS_FILE = "./multimodal_data/distilled_done.ids"
 
-# ============ A800 优化配置 ============
+# ============ 优化配置 ============
 BATCH_SIZE = 128
 MAX_NUM_SEQS = 256
 GPU_MEMORY_UTILIZATION = 0.95
