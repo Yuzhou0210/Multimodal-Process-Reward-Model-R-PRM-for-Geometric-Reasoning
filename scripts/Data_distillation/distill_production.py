@@ -12,7 +12,7 @@ from qwen_vl_utils import process_vision_info
 RAW_POOL_FILE = "./multimodal_data/unlabeled_candidate_pool_50k.jsonl"
 OUTPUT_FILE = "./multimodal_data/sft_distilled_train.jsonl"
 PROGRESS_FILE = "./multimodal_data/distilled_done.ids"
-BATCH_SIZE = 16          # A800 80GB 最佳安全并发批次
+BATCH_SIZE = 16          
 MAX_NEW_TOKENS = 768     # 充足预算，彻底杜绝尾部截断
 
 SYSTEM_PROMPT = (
