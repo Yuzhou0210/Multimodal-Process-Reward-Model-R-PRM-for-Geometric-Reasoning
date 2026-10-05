@@ -484,7 +484,7 @@ The final R-PRM is initialized from **Qwen3-VL-8B-Instruct** and fine-tuned usin
 
 | Model | Description | Weights |
 |---|---|---|
-| Stage-I R-PRM | Seed-SFT verifier trained on 1,788 examples | Coming soon |
+| Stage-I R-PRM | Seed-SFT verifier trained on 1,788 examples | https://huggingface.co/Yuzhou0210/Qwen3-VL-8B-RPRM-SFT |
 | **Final R-PRM** | Final verifier trained on the expanded process-supervision dataset | **https://huggingface.co/Yuzhou0210/Qwen3-VL-8B-RPRM-v2** |
 
 The **Final R-PRM** is the model used for the main R-PRM inference and reranking experiments.
